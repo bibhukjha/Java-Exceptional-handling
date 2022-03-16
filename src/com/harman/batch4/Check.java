@@ -5,7 +5,7 @@ public class Check {
     public static void main(String[] args) {
         try{
 
-            String name = "Hello";
+            String name = null;
             System.out.println(name.length());
             //int x=10, y = 0,z ;
             //z=x/y;
