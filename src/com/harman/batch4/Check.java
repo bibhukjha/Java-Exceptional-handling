@@ -8,9 +8,9 @@ public class Check {
             z=x/y;
             System.out.println(z);
         }
-        catch (Exception e)
+        catch (ArithmeticException e)
         {
-            System.out.println(e);
+            System.out.println("Divisiblity by ZERO not possible");
         }
 
     }
